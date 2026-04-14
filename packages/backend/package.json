@@ -16,6 +16,8 @@
     "build-image": "docker build ../.. -f Dockerfile --tag backstage"
   },
   "dependencies": {
+    "@backstage-community/plugin-fairwinds-insights-backend": "file:/tmp/fw-insights-backend.tgz",
+    "@backstage-community/plugin-fairwinds-insights-common": "file:/tmp/fw-insights-common.tgz",
     "@backstage/backend-defaults": "^0.16.0",
     "@backstage/config": "^1.3.6",
     "@backstage/plugin-app-backend": "^0.5.12",

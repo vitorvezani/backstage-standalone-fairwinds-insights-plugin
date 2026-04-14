@@ -14,6 +14,8 @@
     "lint": "backstage-cli package lint"
   },
   "dependencies": {
+    "@backstage-community/plugin-fairwinds-insights": "file:/tmp/fw-insights-frontend.tgz",
+    "@backstage-community/plugin-fairwinds-insights-common": "file:/tmp/fw-insights-common.tgz",
     "@backstage/cli": "^0.36.0",
     "@backstage/core-components": "^0.18.8",
     "@backstage/core-plugin-api": "^1.12.4",
