@@ -59,9 +59,6 @@ backend.add(import('@backstage/plugin-search-backend-module-techdocs'));
 // kubernetes plugin
 backend.add(import('@backstage/plugin-kubernetes-backend'));
 
-// Fairwinds Insights (proxies Insights API; frontend cards use catalog module)
-backend.add(import('@backstage-community/plugin-fairwinds-insights-backend'));
-
 // notifications and signals plugins
 backend.add(import('@backstage/plugin-notifications-backend'));
 backend.add(import('@backstage/plugin-signals-backend'));

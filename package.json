@@ -50,8 +50,7 @@
   },
   "resolutions": {
     "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@backstage-community/plugin-fairwinds-insights-common": "file:/tmp/fw-insights-common.tgz"
+    "@types/react-dom": "^18"
   },
   "prettier": "@backstage/cli/config/prettier",
   "lint-staged": {

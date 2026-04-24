@@ -14,7 +14,6 @@ metadata:
   name: example-website
   annotations:
     backstage.io/techdocs-ref: dir:./example-docs
-    insights.fairwinds.com/app-groups: example-website
 spec:
   type: website
   lifecycle: experimental
